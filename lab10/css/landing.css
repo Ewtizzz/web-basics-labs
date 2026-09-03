@@ -1,0 +1,17 @@
+body {
+  font-family: 'Manrope', Arial, sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-bg: tomato;
+  --bs-btn-border-color: tomato;
+  --bs-btn-hover-bg: #e2542c;
+  --bs-btn-hover-border-color: #e2542c;
+  --bs-btn-active-bg: #e2542c;
+  --bs-btn-active-border-color: #e2542c;
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+  color: tomato;
+}
