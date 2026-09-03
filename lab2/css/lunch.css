@@ -1,0 +1,89 @@
+.menu {
+  margin-bottom: 40px;
+}
+
+.menu__title {
+  margin: 0 0 20px;
+  font-family: 'Manrope', Arial, sans-serif;
+  font-size: 26px;
+  color: #1a1a1a;
+}
+
+.dishes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 30px 40px;
+  border: 2px solid transparent;
+  border-radius: 35px;
+  background-color: white;
+  cursor: pointer;
+  filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}
+
+.dish:hover {
+  border: 2px solid tomato;
+}
+
+.dish:hover .dish__button {
+  background-color: tomato;
+  color: white;
+}
+
+.dish__image {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.dish__price {
+  margin: 20px 0 0;
+  font-size: 22px;
+  color: #1a1a1a;
+}
+
+.dish__name {
+  flex-grow: 1;
+  margin: 5px 0 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.dish__weight {
+  margin: 15px 0 0;
+  font-size: 18px;
+  color: #8f8f8f;
+}
+
+.dish__button {
+  margin-top: 15px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1eee9;
+  font-family: 'Manrope', Arial, sans-serif;
+  font-size: 18px;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .dishes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu__title {
+    text-align: center;
+  }
+
+  .dishes {
+    grid-template-columns: 1fr;
+  }
+}
