@@ -1,6 +1,6 @@
 # Основы веб-технологий — лабораторные работы
 
-Финальная версия работы: **https://ewtizzz.github.io/web-basics-labs/lab9/**
+Финальная версия работы: **https://ewtizzz.github.io/web-basics-labs/lab10/landing.html**
 
 ## Состав
 
@@ -17,6 +17,8 @@
 | `lab7` | ЛР №7 | [открыть](https://ewtizzz.github.io/web-basics-labs/lab7/) |
 | `lab8` | ЛР №8 | [открыть](https://ewtizzz.github.io/web-basics-labs/lab8/) |
 | `lab9` | ЛР №9 | [открыть](https://ewtizzz.github.io/web-basics-labs/lab9/) |
+| `lab10` | ЛР №10 | [открыть](https://ewtizzz.github.io/web-basics-labs/lab10/landing.html) |
+
 
 ## Про API
 
@@ -30,6 +32,6 @@
 
 ## Как открыть
 
-Любую работу можно открыть по интерактивным кнопкам выше. Изображения блюд лежат рядом, в `images/`.
+Любую работу можно открыть, просто дважды кликнув по `index.html` в её папке. Изображения блюд лежат рядом, в `images/`.
 
 Вёрстка всех страниц проходит проверку на `https://validator.w3.org` без ошибок и предупреждений.
